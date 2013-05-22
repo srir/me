@@ -1,0 +1,93 @@
+body {
+  font-family: Source Sans Pro;
+  background: #fff url(ps_neutral.png) repeat left top;
+}
+
+#content {
+  max-width: 780px;
+  margin: 80px auto;
+}
+
+#text {
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform:rotate(45deg); 
+  margin-bottom: 150px;
+}
+
+#name h1 {
+  font-size: 96px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+#name {
+  -webkit-transform:rotate(-90deg); 
+  -webkit-transform-origin: 42% 20%; 
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#job {
+  text-align: center;
+}
+
+#coname {
+  background-image: url(icons/gumroad-logo.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: left 7px;
+  padding-left: 80px;
+  line-height: 80px;
+}
+
+ul.buttons {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+ul.buttons li {
+  display: inline;
+}
+
+.button {
+  margin: 0 5px;
+  cursor:pointer;
+}
+
+.button:hover {
+  background-color:#D4D4D4;
+}
+
+.flat-icon {
+  background-size: 100px 100px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+}
+
+#github-link {
+  background-image: url(icons/github.png);
+  background-color: #4183C4;
+}
+
+#twitter-link {
+  background-image: url(icons/twitter.png);
+  background-color: #00ACED;
+}
+
+#email-link {
+  background-image: url(icons/email.png);
+  background-color: #00405D;
+}
