@@ -1,11 +1,11 @@
 body {
   font-family: Source Sans Pro;
-  background: #fff url(ps_neutral.png) repeat left top;
+  background: #fff url(img/ps_neutral.png) repeat left top;
 }
 
 #content {
   max-width: 780px;
-  margin: 80px auto;
+  margin: 200px auto;
 }
 
 #text {
@@ -14,12 +14,13 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transform:rotate(45deg); 
+  -webkit-transform: rotate(45deg) translate(-150px, 200px); 
+  -webkit-transform-origin: 100% 100%;
   margin-bottom: 150px;
 }
 
 #name h1 {
-  font-size: 96px;
+  font-size: 120px;
 }
 
 h1 {
@@ -31,23 +32,28 @@ h2 {
 }
 
 #name {
-  -webkit-transform:rotate(-90deg); 
-  -webkit-transform-origin: 42% 20%; 
-  margin: 0 auto;
+  -webkit-transform:rotate(-90deg) translate(-360px, 240px); 
+  -webkit-transform-origin: 0px 0px; 
+  margin: 0 0;
   max-width: 600px;
+  position: relative;
+  left: 0px;
 }
 
 #job {
   text-align: center;
 }
 
-#coname {
-  background-image: url(icons/gumroad-logo.png);
+#co {
+  background-image: url(img/gumroad-logo-big.png);
   background-repeat: no-repeat;
-  background-size: 80px 80px;
-  background-position: left 7px;
-  padding-left: 80px;
-  line-height: 80px;
+  background-size: 100%;
+  background-position: left;
+  line-height: 100px;
+  height: 120px;
+  width: 420px;
+  float: right;
+  margin-right: -10px;
 }
 
 ul.buttons {
@@ -78,16 +84,16 @@ ul.buttons li {
 }
 
 #github-link {
-  background-image: url(icons/github.png);
+  background-image: url(img/github.png);
   background-color: #4183C4;
 }
 
 #twitter-link {
-  background-image: url(icons/twitter.png);
+  background-image: url(img/twitter.png);
   background-color: #00ACED;
 }
 
 #email-link {
-  background-image: url(icons/email.png);
+  background-image: url(img/email.png);
   background-color: #00405D;
 }
