@@ -4,15 +4,17 @@ body {
 }
 
 #content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   max-width: 780px;
-  margin: 200px auto;
+  margin: 300px auto;
 }
 
 #text {
   font-family: Helvetica Neue;
   font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 36px;
 }
 
 #name {
@@ -22,7 +24,7 @@ body {
 
 #name h1 {
   display: inline;
-  font-size: 120px;
+  font-size: 80px;
 }
 
 ul.buttons {
